@@ -1,0 +1,12 @@
+dependencies:
+  yaml: 1.10.0
+lockfileVersion: 5.1
+packages:
+  /yaml/1.10.0:
+    dev: false
+    engines:
+      node: '>= 6'
+    resolution:
+      integrity: sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
+specifiers:
+  yaml: ^1.10.0

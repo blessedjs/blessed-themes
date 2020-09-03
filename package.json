@@ -1,0 +1,16 @@
+{
+  "name": "blessed-themes",
+  "version": "1.0.0",
+  "description": "Themes for blessed console apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["blessed", "themes", "colorscheme", "colorschemes", "terminal", "command-line"],
+  
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^1.10.0"
+  }
+}
