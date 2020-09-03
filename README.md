@@ -5,11 +5,21 @@ Themes for TUI (terminal user inteface) apps created using [blessed](https://git
 
 ## Install
 ```
-npm i --save blessed-themes
+npm install blessed-themes
+```
+
+Using yarn
+```
+yarn add blessed-themes
+```
+
+Using pnpm
+```
+pnpm add blessed-themes
 ```
 
 ## Usage
 
 ```js
-const Gruvbox-Dark = require('blessed-themes/theme/Gruvbox-Dark');
+const GruvboxDark = require('blessed-themes/theme/Gruvbox-Dark');
 ```
