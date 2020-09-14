@@ -1,4 +1,4 @@
-# blessed-themes
+# :rainbow: blessed-themes :lollipop:
 
 Themes for TUI (terminal user inteface) apps created using [blessed](https://github.com/chjj/blessed).
 
@@ -84,3 +84,10 @@ const header = blessed.box({
 });
 
 ```
+
+## Themes
+You can find the list of theme names from [themes](/themes) folder.
+
+### Light Themes
+- Gruvbox-Light
+- Solarized-Light
