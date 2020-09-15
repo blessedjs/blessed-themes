@@ -1,6 +1,6 @@
 {
   "name": "blessed-themes",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Themes for blessed console apps",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,7 @@
   ],
   "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@terminal-junkies/neo-blessed": "^1.0.4",
     "prompts": "^2.3.2",
