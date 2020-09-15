@@ -1,7 +1,56 @@
 dependencies:
   yaml: 1.10.0
+devDependencies:
+  '@terminal-junkies/neo-blessed': 1.0.4
+  prompts: 2.3.2
 lockfileVersion: 5.1
 packages:
+  /@terminal-junkies/neo-blessed/1.0.4:
+    dependencies:
+      node-pty: 0.9.0
+      term.js: 0.0.7
+    dev: true
+    engines:
+      node: '>= 8.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-WRR5zHVnec0KaOQQ3yF+eWxo0x+buOVhGFhEMv9ZYMIsvqdCU7yaJm3OcwHbWVy3d0eKUBdQ+71gsA8SyObymw==
+  /kleur/3.0.3:
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
+  /nan/2.14.1:
+    dev: true
+    resolution:
+      integrity: sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
+  /node-pty/0.9.0:
+    dependencies:
+      nan: 2.14.1
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-MBnCQl83FTYOu7B4xWw10AW77AAh7ThCE1VXEv+JeWj8mSpGo+0bwgsV+b23ljBFwEM9OmsOv3kM27iUPPm84g==
+  /prompts/2.3.2:
+    dependencies:
+      kleur: 3.0.3
+      sisteransi: 1.0.5
+    dev: true
+    engines:
+      node: '>= 6'
+    resolution:
+      integrity: sha512-Q06uKs2CkNYVID0VqwfAl9mipo99zkBv/n2JtWY89Yxa3ZabWSrs0e2KTudKVa3peLUvYXMefDqIleLPVUBZMA==
+  /sisteransi/1.0.5:
+    dev: true
+    resolution:
+      integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
+  /term.js/0.0.7:
+    dev: true
+    engines:
+      node: '>= 0.8.0'
+    resolution:
+      integrity: sha1-Um8kz8Dy72+A9RfJ4n2ulHvIcxU=
   /yaml/1.10.0:
     dev: false
     engines:
@@ -9,4 +58,6 @@ packages:
     resolution:
       integrity: sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
 specifiers:
+  '@terminal-junkies/neo-blessed': ^1.0.4
+  prompts: ^2.3.2
   yaml: ^1.10.0
