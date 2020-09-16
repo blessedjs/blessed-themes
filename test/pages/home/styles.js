@@ -29,6 +29,21 @@ module.exports = function (colors) {
         }
       },
     },
+    redBox: {
+      border: {
+        type: 'line',
+        fg: red,
+        bg: background,
+      },
+      style: {
+        fg: red,
+        bg: background,
+        label: {
+          fg: red,
+          bg: background,
+        }
+      },
+    },
     list: {
       border: {
         type: 'line',

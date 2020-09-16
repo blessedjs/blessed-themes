@@ -4,7 +4,7 @@
   "description": "Themes for blessed console apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test/widget.js",
     "deploy": "git push && git push --tags && npm publish"
   },
   "keywords": [
@@ -17,9 +17,11 @@
   ],
   "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@terminal-junkies/neo-blessed": "^1.0.4",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.20",
+    "prettier": "^2.1.2",
     "prompts": "^2.3.2",
     "yaml": "^1.10.0"
   }
