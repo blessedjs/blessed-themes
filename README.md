@@ -88,6 +88,52 @@ const header = blessed.box({
 ## Themes
 You can find the list of theme names from [themes](/themes) folder.
 
+### Dracula
+![Dracula](screenshots/Dracula.jpg)
+
+
+### 3024.dark
+![3024.dark](screenshots/3024.dark.jpg)
+
+### 3024.light
+![3024.light](screenshots/3024.light.jpg)
+
+### Argonaut
+![Argonaut](screenshots/Argonaut.jpg)
+
+### Afterglow
+![Afterglow](screenshots/Afterglow.jpg)
+
+### Zenburn
+![Zenburn](screenshots/Zenburn.jpg)
+
+### Gruvbox-Dark
+![Gruvbox-Dark](screenshots/Gruvbox-Dark.jpg)
+
+### Gruvbox-Light
+![Gruvbox-Light](screenshots/Gruvbox-Light.jpg)
+
+### Molokai
+![Molokai](screenshots/Molokai.jpg)
+
+### Nord
+![Nord](screenshots/Nord.jpg)
+
+### Tango
+![Tango](screenshots/Tango.jpg)
+
+### Wombat
+![Wombat](screenshots/Wombat.jpg)
+
+### Tomorrow-Night
+![Tomorrow-Night](screenshots/Tomorrow-Night.jpg)
+
+### Solarized-Dark
+![Solarized-Dark](screenshots/Solarized-Dark.jpg)
+
+### Solarized-Light
+![Solarized-Light](screenshots/Solarized-Light.jpg)
+
 ### Light Themes
 - Gruvbox-Light
 - Solarized-Light
