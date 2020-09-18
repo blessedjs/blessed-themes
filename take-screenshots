@@ -1,0 +1,19 @@
+osascript << EOF
+
+set themes to { "Dracula", "3024.dark", "3024.light", "Argonaut", "Afterglow", "Zenburn", "Gruvbox-Dark", "Gruvbox-Light", "Molokai", "Nord", "Tango", "Wombat", "Tomorrow-Night", "Solarized-Dark", "Solarized-Light" }
+
+tell application "Terminal"
+activate
+delay 1
+tell application "System Events" to keystroke "f" using {command down, control down}
+do script "cd ~/www/nvm-tui" in window 1
+repeat with theme in themes
+do script "./bin/cli.js --theme " & theme in window 1
+delay 2
+do shell script "screencapture ~/www/blessed-themes/screenshots/" & theme &  ".jpg"
+tell application "System Events" to keystroke "q"
+end repeat
+-- do script "killall 'Terminal'"
+end tell
+
+EOF
