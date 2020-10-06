@@ -5,17 +5,17 @@ Themes for TUI (terminal user inteface) apps created using [blessed](https://git
 
 ## Install
 ```
-npm install blessed-themes
+npm install @blessed/themes
 ```
 
 Using yarn
 ```
-yarn add blessed-themes
+yarn add @blessed/themes
 ```
 
 Using pnpm
 ```
-pnpm add blessed-themes
+pnpm add @blessed/themes
 ```
 
 ## Usage

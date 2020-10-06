@@ -1,6 +1,6 @@
 {
-  "name": "blessed-themes",
-  "version": "1.1.0",
+  "name": @"blessed/themes",
+  "version": "1.0.0",
   "description": "Themes for blessed console apps",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,16 @@
     "terminal",
     "command-line"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blessedjs/blessed-themes.git"
+  },
   "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blessedjs/blessed-themes/issues"
+  },
+  "homepage": "https://github.com/blessedjs/blessed-themes#readme",
   "devDependencies": {
     "@terminal-junkies/neo-blessed": "^1.0.4",
     "blessed": "^0.1.81",
