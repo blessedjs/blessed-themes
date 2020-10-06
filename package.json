@@ -1,5 +1,5 @@
 {
-  "name": @"blessed/themes",
+  "name": "@blessed/themes",
   "version": "1.0.0",
   "description": "Themes for blessed console apps",
   "main": "index.js",
